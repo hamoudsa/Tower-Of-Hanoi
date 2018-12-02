@@ -1,0 +1,62 @@
+body {
+    padding-top:250px;
+    padding-left:500px;
+    align-content: center;
+    
+  }
+  h1 {
+    font-family: 'Chewy', cursive;
+    font-size: 50;
+  }
+  
+  .move {
+    height: 150px;
+    width: 100px;
+    border-bottom: 4px solid #000;
+    border-radius: 6px;
+    margin: 5px;
+    padding: 10px;
+    float: left;
+    position:relative;
+  }
+  .box {
+    width: 100px;
+    position:absolute;
+    bottom:10px;
+  }
+  #message {
+    height: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    display:block;
+  }
+  .ring {
+    height: 20px;
+    margin:1px auto;
+    border: 1px solid #000;
+    border-radius: 15px 15px;
+  }
+  
+  .ring-1{
+    width: 20px;
+    background-color:cyan;
+  }
+  .ring-2{
+    width: 40px;
+    background-color:purple;
+  }
+  .ring-3{
+    width: 60px;
+    background-color:blue;
+  }
+  .ring-4{
+    width: 80px;
+    background-color:green;
+  }
+  .ring-5{
+    width: 100px;
+    background-color:red;
+  }
+  div#steps {
+      float: left;
+  }
